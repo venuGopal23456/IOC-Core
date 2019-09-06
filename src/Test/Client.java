@@ -11,8 +11,8 @@ public class Client {
         factory.getBean("t");
 */
         ApplicationContext context = new ClassPathXmlApplicationContext("Resource/spring.xml");
-        //test sfo = (test) context.getBean("t");
-        //System.out.println("Employee Details" + sfo);
+        test sfo = (test) context.getBean("t");
+        System.out.println("Employee Details" + sfo);
         /*context.getBean("t");
         context.getBean("t");
 */

@@ -1,10 +1,16 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 <beans>
+    <bean id="adrs" class="Test.Address" >
+        <property name="city" value="arni"/>
+        <property name="state" value="123"/>
+        <property name="zipcode" value="455"/>
 
-<bean id="t" class="Test.test" scope="singleton">
-   <!-- <property name="ename" value="venu"></property>
-    <property name="eid" value="123"></property>
-    <property name="eaddress" value="Alien"></property>-->
-</bean>
+    </bean>
+    <bean id="t" class="Test.test" >
+        <property name="ename" value="venu"/>
+        <property name="eid" value="123"/>
+        <constructor-arg ref="adrs"/>
+
+    </bean>
 </beans>

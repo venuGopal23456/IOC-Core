@@ -1,21 +1,19 @@
 package Test;
 
 public class test {
-    private test() {
-        System.out.println("constrctor called by those function");
-    }
 
-    /*String ename;
+
+    String ename;
     int eid;
-    String eaddress;
+    Address address;
 
     public test() {
     }
 
-    public test(String ename, int eid, String eaddress) {
-        this.ename = ename;
-        this.eid = eid;
-        this.eaddress = eaddress;
+    //constructor Injection
+    public test(Address address) {
+        this.address = address;
+
     }
 
     public String getEname() {
@@ -34,12 +32,13 @@ public class test {
         this.eid = eid;
     }
 
-    public String getEaddress() {
-        return eaddress;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setEaddress(String eaddress) {
-        this.eaddress = eaddress;
+    //Setter Injection
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     @Override
@@ -47,7 +46,8 @@ public class test {
         return "test{" +
                 "ename='" + ename + '\'' +
                 ", eid=" + eid +
-                ", eaddress='" + eaddress + '\'' +
+                ", address=" + address +
                 '}';
-    }*/
+    }
 }
+
