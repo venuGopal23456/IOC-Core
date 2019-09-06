@@ -10,3 +10,4 @@ and also we can achieve through Setters.
 Object Creation and Destruction can also be monitored
 1)Init-method()
 2)destroy-method()
+  -Need to Downcast the Application Context to destroy it.
