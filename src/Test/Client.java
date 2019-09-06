@@ -14,8 +14,10 @@ public class Client {
         test sfo = (test) context.getBean("t");
         System.out.println("Employee Details" + sfo);
         /*context.getBean("t");
-        context.getBean("t");
-*/
+        context.getBean("t");*/
+        //Destroying Application Context Implicitly
+        ClassPathXmlApplicationContext ctr=(ClassPathXmlApplicationContext)context;
+        ctr.close();
     }
 
 

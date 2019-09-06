@@ -49,5 +49,13 @@ public class test {
                 ", address=" + address +
                 '}';
     }
+
+    public void myinit() {
+        System.out.println("Object Created");
+    }
+
+    public void mydestroy() {
+        System.out.println("Object Destroyed");
+    }
 }
 

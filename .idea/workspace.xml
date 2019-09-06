@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf648076-295f-4ee5-b7e9-a3d6dd9a056c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IOC core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Resource/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resource/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/test.java" afterDir="false" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -38,6 +36,10 @@
                 <element signature="e#507#508#0" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#926#927#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,9 +111,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/Beans/Test.java" />
         <option value="$PROJECT_DIR$/src/Test/spring.xml" />
-        <option value="$PROJECT_DIR$/src/Test/test.java" />
         <option value="$PROJECT_DIR$/src/Test/Address.java" />
         <option value="$PROJECT_DIR$/src/Resource/spring.xml" />
+        <option value="$PROJECT_DIR$/src/Test/test.java" />
         <option value="$PROJECT_DIR$/src/Test/Client.java" />
       </list>
     </option>
@@ -226,12 +228,12 @@
       <updated>1567363102555</updated>
       <workItem from="1567363104056" duration="4012000" />
       <workItem from="1567367192462" duration="3942000" />
-      <workItem from="1567793172677" duration="3006000" />
+      <workItem from="1567793172677" duration="4088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11592000" />
+    <option name="totallyTimeSpent" value="12674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -244,7 +246,7 @@
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.562323" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18413597" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="3" />
@@ -254,7 +256,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.4688385" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -318,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
@@ -333,7 +335,18 @@
             <element signature="e#507#508#0" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resource/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -358,17 +371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resource/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -425,7 +431,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IOC core</last-edited>
+          <last-edited>Spring|IOC core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,7 +7,7 @@
         <property name="zipcode" value="455"/>
 
     </bean>
-    <bean id="t" class="Test.test" >
+    <bean id="t" class="Test.test"  init-method="myinit" destroy-method="mydestroy">
         <property name="ename" value="venu"/>
         <property name="eid" value="123"/>
         <constructor-arg ref="adrs"/>
