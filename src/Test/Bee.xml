@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="t" class="Test.test" >
+        <constructor-arg value="venuvg2010@gmail.com"   index="2"/>
+        <constructor-arg  value="24"/>
+        <constructor-arg  value="venu" index="0"/>
+
+    </bean>
+</beans>

@@ -2,60 +2,39 @@ package Test;
 
 public class test {
 
-
-    String ename;
-    int eid;
-    Address address;
+     private  String name;
+     private  int age;
+     private  String Email;
 
     public test() {
-    }
-
-    //constructor Injection
-    public test(Address address) {
-        this.address = address;
 
     }
 
-    public String getEname() {
-        return ename;
+    public test(String name, int age, String email) {
+        this.name = name;
+        this.age = age;
+        Email = email;
     }
 
-    public void setEname(String ename) {
-        this.ename = ename;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getEid() {
-        return eid;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public void setEid(int eid) {
-        this.eid = eid;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    //Setter Injection
-    public void setAddress(Address address) {
-        this.address = address;
+    public void setEmail(String email) {
+        Email = email;
     }
 
     @Override
     public String toString() {
         return "test{" +
-                "ename='" + ename + '\'' +
-                ", eid=" + eid +
-                ", address=" + address +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", Email='" + Email + '\'' +
                 '}';
-    }
-
-    public void myinit() {
-        System.out.println("Object Created");
-    }
-
-    public void mydestroy() {
-        System.out.println("Object Destroyed");
     }
 }
 
